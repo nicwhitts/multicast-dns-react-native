@@ -1,7 +1,7 @@
 // Pollyfull nextTick as it doenst exist on react native
 process.nextTick = setImmediate;
 
-var packet = require('dns-packet');
+var packet = require('react-native-dns-packet');
 var dgram = require('react-native-udp');
 var thunky = require('thunky');
 var events = require('events');
